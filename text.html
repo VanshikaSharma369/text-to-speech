@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to text</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <p>SPEECH TO TEXT CONVERTER</p>
+        </div>
+        <div class="mid">
+            <p class="para">ENTER TEXT TO LISTEN</p>
+            <br><br><br>
+            <textarea name="txt" id="txt" cols="40" rows="15" placeholder="Enter text here..."></textarea>
+            <p class="error-para"></p>
+        </div>
+        <div class="result">
+            <button class="btn" id="btn" onclick="speak()"> 
+                <i class="fas fa-play">
+                    play
+                </i>
+            </button>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
